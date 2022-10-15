@@ -1,5 +1,5 @@
 .container{
-    margin-top: 10vh;
+    margin-top: 15vh;
     display: flex;
     gap: 5vh;
     justify-content: center;
@@ -44,14 +44,19 @@
     padding: 20px;
     border: solid;
     border-color: black;
+    border-radius: 10px;
 }
 .btn-shop-now a:hover{
-    background-color: cadetblue;
+    background-color: black;
+    color: #f4f4f4;
+    
 }
 
 .front-picture img{
     width: 1000px;
     border-radius: 20px;
+    border: solid;
+    border-color: black;
 }
 
 .business-partner{
@@ -65,6 +70,6 @@
 .business-partner img{
     height: 100px;
     border: solid;
-    border-color: orangered;
+    border-color: black;
     border-radius: 10px;
 }
