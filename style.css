@@ -71,7 +71,7 @@ body {
     display: flex;
 }
 
-.navbar .nav-items ul li {
+.navbar .items ul li {
     display: flex;
     align-items: center;
     padding: 20px;
@@ -90,58 +90,11 @@ body {
   }
   .links:hover:after { transform: scaleX(1); }
 
-.footer{
-    margin-top: 30px;
-    height: auto;
-    background-color: #1a1a1a;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    font-size: 17px;
-
-}
-
-.foot-content{
-    margin-top: 50px;
-    margin-bottom: 40px;
-    display: flex;
-    width: 70%;
-    flex-direction: row;
-    justify-content: space-around;
-
-
-}
-
-.foot-items{
-    display: flex;
-    flex-direction: column; 
-}
-
-.top-item{
-    font-weight: bold;
-    margin-bottom: 25px;
-}
-
-.items{
-    margin-bottom: 13px;
-}
-
-.items a{
-    color: #b9b9b9;
-}
-
-.items a:hover{
-    color: #f4f4f4;
-}
-
 @media  screen and (max-width:1520px){
     .nav-content{
         width: 100%;
     }
 
-    .foot-content{
-        width: 100%;
-    }
 }
 
 @media  screen and (max-width:1200px){
@@ -151,7 +104,7 @@ body {
 
       }
 
-.nav-items{
+.items{
     width: 100%;
 }
 
@@ -177,7 +130,6 @@ body {
 
 
 
-
  
 }
 
@@ -191,13 +143,5 @@ body {
     width: 200px;
 }
 
-.foot-content{
-    flex-direction: column;
-    align-items: center;
-}
-
-.foot-items{
-    margin-bottom: 30px;
-}
-
+    /* FFaire menu hamburger*/
 }
