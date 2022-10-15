@@ -12,6 +12,7 @@ body {
     display: flex;
     align-items: column;
     flex-wrap: wrap;
+    justify-content: center;
     font-family: 'Open Sans', sans-serif;
     font-size: 20px;
     background-color: #f4f4f4;
@@ -19,23 +20,27 @@ body {
 }
 
 .navbar{
+    display: flex;
+    justify-content: center;
     padding-top: 2px;
     padding-bottom: 2px;
-    align-items: center;
-    display: flex;
     width: 100%;
     box-sizing: border-box;
     background-color: #1a1a1a;
-    position: fixed;
-    top: 0; 
-    left: 0; 
-    z-index: 9999
-    
+    height: 10vh;
+}
+
+.nav-content{
+    display: flex;
+    width: 80%;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
 }
 
 .formulaire input{
     align-items: center;
-    position: relative;
     width: 400px;
     height: 30px;
     color: #1a1a1a;
@@ -44,9 +49,8 @@ body {
 .panier{
     display: flex;
     align-items: center;
-    justify-content: flex-end;
-    width: 10%;
-    margin-right: 200px;
+    justify-content: center;
+    width: 15%;
 }
 
 .panier ul li{
@@ -55,27 +59,15 @@ body {
     align-items: center;
 }
 
-.nav-items{
-    width: 100%;
-    margin-left: 200px;
-}
-
-.items{
-    width: 90%;
-}
-
 
 .navbar ul {
     display: flex;
-
-
 }
 
 .navbar .items ul li {
-    margin: 20px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    padding: 20px;
 }
 
 .active {
@@ -93,13 +85,6 @@ body {
 
 @media  screen and (max-width:1520px){
 
-.nav-items{
-    margin-left: 0;
-}
-
-.panier{
-    margin-right: 15px;
-}
 }
 
 @media  screen and (max-width:1200px){
@@ -128,8 +113,7 @@ body {
     margin: 0;
 }
  
-
-    }
+}
 
 @media screen and (max-width:780px){
 
