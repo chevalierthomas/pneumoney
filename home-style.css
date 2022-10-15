@@ -1,7 +1,7 @@
 .container{
-    margin-top: 10vh;
+    margin-top: 5vh;
     display: flex;
-    gap: 5vh;
+    gap: 3vh;
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
