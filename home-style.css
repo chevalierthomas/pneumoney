@@ -1,15 +1,15 @@
 .container{
     margin-top: 15vh;
     display: flex;
-    gap: 5vh;
+    gap: 3vh;
     justify-content: center;
     align-items: center;
     flex-flow: column wrap;
-    width: 80%;
+    width: 70%;
 }
 .header{
     display: flex;
-    gap: 7vh;
+    gap: 2vh;
     justify-content: center;
     flex-flow: column wrap;
     width: 50%;
@@ -44,7 +44,6 @@
     padding: 20px;
     border: solid;
     border-color: black;
-    border-radius: 10px;
 }
 .btn-shop-now a:hover{
     background-color: black;
@@ -53,10 +52,7 @@
 }
 
 .front-picture img{
-    width: 1000px;
-    border-radius: 20px;
-    border: solid;
-    border-color: black;
+    width: 100%;
 }
 
 .business-partner{
@@ -69,7 +65,29 @@
 
 .business-partner img{
     height: 100px;
-    border: solid;
-    border-color: black;
-    border-radius: 10px;
+}
+
+
+@media screen and (max-width:780px){
+
+.container{
+    width: 100%;
+    font-size: 15px;
+}
+
+.business-partner{
+
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.business-partner img{
+    height: 200px;
+}
+
+
 }
