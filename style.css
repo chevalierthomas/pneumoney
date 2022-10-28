@@ -31,7 +31,7 @@ body {
     width: 100%;
     box-sizing: border-box;
     background-color: #1a1a1a;
-    height: 10vh;
+    height: 8vh;
     position: fixed;
     top: 0; 
     left: 0; 
@@ -50,7 +50,7 @@ body {
 .formulaire input{
     align-items: center;
     width: 400px;
-    height: 30px;
+    height: 25px;
     color: #1a1a1a;
 }
 
