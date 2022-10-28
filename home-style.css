@@ -62,11 +62,12 @@
     flex-direction: row;
     justify-content: center;
     gap: 40px;
-    border-radius: 10px;
+    
 }
 
 .business-partner img{
     height: 100px;
+    border-radius: 10px;
 }
 
 
