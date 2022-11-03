@@ -25,13 +25,11 @@ body {
 
 .navbar{
     display: flex;
+    align-items: center;
     justify-content: center;
-    padding-top: 2px;
-    padding-bottom: 2px;
     width: 100%;
-    box-sizing: border-box;
     background-color: #1a1a1a;
-    height: 8vh;
+    height: 9vh;
     position: fixed;
     top: 0; 
     left: 0; 
@@ -41,15 +39,21 @@ body {
 .nav-content{
     display: flex;
     width: 80%;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+    gap: 20px;
 
+}
+
+.nav-items{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .formulaire input{
     align-items: center;
-    width: 400px;
+    width: 300px;
     height: 25px;
     color: #1a1a1a;
 }
@@ -57,21 +61,20 @@ body {
 .panier{
     display: flex;
     align-items: center;
-    justify-content: center;
-    width: 15%;
 }
 
 .panier ul li{
     display: flex;
-    margin: 0;
+    padding: 5px;
     align-items: center;
 }
+
 
 .navbar ul {
     display: flex;
 }
 
-.navbar .nav-items ul li {
+.nav-links ul li {
     display: flex;
     align-items: center;
     padding: 20px;
@@ -134,70 +137,92 @@ body {
     color: #f4f4f4;
 }
 
-@media  screen and (max-width:1520px){
-    .nav-content{
-        width: 100%;
-    }
-
-    .foot-content{
-        width: 100%;
-    }
+.hamburger-icon{
+    filter: invert(100%);
+    margin-right: 25PX;
+    display: none;
 }
 
-@media  screen and (max-width:1200px){
-
-.navbar {
-    height: auto;
-
-      }
-
-.nav-items{
-    width: 100%;
+.mobile-menu{
+    margin-left: 0;
 }
 
-.nav-content{
-    flex-direction: column;
+
+
+
+@media (max-width: 1200px) {
+
+
+
+  .hamburger-icon{
+    display: block;
+  }
+
+  .panier {
+    display: flex;
     justify-content: center;
-}
-
-
-.navbar ul {
-    flex-direction: column;
-    align-items: center;
-      }
-
-.panier{
     width: 100%;
-    margin-bottom: 15px;
-}
-.panier ul {
-     flex-direction: column;
-    align-items: center;
-}
+  }
 
+  .panier ul li{
+    padding: 15px;
+  }
 
+  .nav-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    
+  }
 
+  .nav-items{
+    top: 0;
+    left: 0;
+    position: absolute;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.555);
+    backdrop-filter: blur(5px);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-left: 100%;
+    transition: all 0.4s ease;
 
- 
-}
+  }
 
-@media screen and (max-width:780px){
-
-.body{
-    font-size: 18px;
-}
-
-.formulaire input{
-    width: 200px;
-}
-
-.foot-content{
+  .nav-items ul {
+    display: flex;
     flex-direction: column;
     align-items: center;
+
+  }
+
+  .nav-items ul li{
+    margin: 15px 0;
+    font-size: 24px;
+  }
+
+  .panier-logo{
+    width: 100px;
+  }
+
+  .loupe-logo{
+    width: 40px;
+  }
+
+  .formulaire input{
+    height: 30px;
+  }
+
+  .nav-items.mobile-menu {
+    margin-left: 0;
 }
 
-.foot-items{
-    margin-bottom: 30px;
-}
+
+
+
+
+
 
 }
