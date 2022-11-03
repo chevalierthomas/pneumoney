@@ -9,35 +9,42 @@
     <link rel="stylesheet" href="home-style.css">
 </head>
 <body>
-    <nav class="navbar">
+    <section class="navbar">
         <div class="nav-content">
+            <a class="active" href="#">PneuMoney</a>
                 <div class="nav-items">
-                    <ul>
-                        <li><a class="active" href="#">PneuMoney</a></li>
-                        <li><a class="links" href="#">Les produits</a></li>
-                        <li><a class="links" href="#">Le produit</a></li>
-                        <li class="rechercher"> <img style="margin-right: 10px;" src="img/loupe.png" width="30px" alt="">
-                            <form action="" class="formulaire">
-                            <input class="champ" type="text">
-                            </form>
-                        </li>
-                    </ul>
+                    <div class="nav-links">
+                        <ul>
+                            <li><a class="links " href="#">Les produits</a></li>
+                            <li><a class="links " href="#">Le produit</a></li>
+                            <li class="rechercher"> <img class="loupe-logo" style="margin-right: 10px;" src="img/loupe.png" width="30px" alt="">
+                                <form  action="" class="formulaire ">
+                                <input class="champ " type="text" placeholder="Rechercher">
+                                </form>
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="panier">
+                        <ul>
+                            <li><a href="#"><img class="panier-logo" src="img/panier.png" alt="" width="70px"></a> </li>
+                            <li><a class="links "  href="#">Login</a></li>
+                        </ul>
+                    </div>
                 </div>
 
-            <div class="panier">
-                <ul>
-                    <li><a href="#"><img src="img/panier.png" alt="" width="70px"></a> </li>
-                    <li><a class="links"  href="#">Login</a></li>
-                </ul>
-            </div>
+            
+            
         </div>
-    </nav>
-
+        <img class="hamburger-icon" src="img/hamburger.png" width="40" alt="menu hamburger">
+        
+    </section>
     <div class="container">
 
         <div class="header">
             <div class="title">
                 <h1>Vos pneus aux meilleurs prix</h1>
+
             </div>
 
             <div class="sub-title">
@@ -119,4 +126,12 @@
         </div>
     </footer>
 </body>
+    <script>
+                const menuHamburger = document.querySelector(".hamburger-icon")
+        const navItems = document.querySelector(".nav-items")
+ 
+        menuHamburger.addEventListener('click',()=>{
+        navItems.classList.toggle('mobile-menu')
+        })
+    </script>
 </html>
