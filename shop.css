@@ -37,9 +37,9 @@
 }
 
 .filtres{
-    display: flex;
-    width: 25%;
+    margin-top: 30px;
 }
+
 
 .filtres-header{
     display: flex;
@@ -48,7 +48,7 @@
     align-items: baseline;
 }
 
-.filtres-title{
+.filtres-header-title{
     color: black;
     font-size: 30px;
     font-weight: 500;
@@ -65,64 +65,20 @@
     color: rgb(186, 186, 186);
 }
 
-.filtres-categories{
-    margin-top: 20px;
-}
-
-.filtres-categories-title{
+.filtres-title{
     color: black;
     font-size: 16px;
     font-weight: 800;
 }
 
-.filtres-categories-content{
+.filtres-content{
     margin-top: 14px;
 }
 
-.filtres-categories-box{
+.filtres-box{
     margin-top: 12px;
     color: black;
     font-size: 16px;
-}
-
-.filtres-color{
-    margin-top: 30px;
-}
-
-.filtres-color-title{
-    color: black;
-    font-size: 16px;
-    font-weight: 800;
-    margin-bottom: 12px;
-}
-
-.filtres-color-content{
-    display: flex;
-    flex-flow: row wrap;
-    margin-top: 5px;
-}
-
-.cercle1{
-    width: 30px;
-    height: 30px;
-    border-radius: 20px;
-    background: black;
-}
-
-.cercle2{
-    margin-left: 5px;
-    width: 30px;
-    height: 30px;
-    border-radius: 20px;
-    background: rgb(65, 110, 82);
-}
-
-.cercle3{
-    margin-left: 5px;
-    width: 30px;
-    height: 30px;
-    border-radius: 20px;
-    background: rgb(82, 82, 82);
 }
 
 .sort{
@@ -162,13 +118,15 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 30px;
     width: 100%;
+    border: solid medium green;
 }
 
 .card{
     width:fit-content;
     margin-top: 10px;
+    border: solid medium red;
 }
 
 .card-body{
