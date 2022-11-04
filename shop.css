@@ -1,5 +1,5 @@
 .container{
-    margin-top: 72px;
+    margin-top: 56px;
     display: flex;
     flex-flow: row wrap;
 }
@@ -88,11 +88,10 @@
 }
 
 .sort-box{
-    padding: 5px 10px;
+    white-space: nowrap;
+    padding: 8px 10px;
     display: flex;
-    border-style: inherit;
-    border-color: black;
-    width: 150px;
+    border: solid medium black;
 }
 
 .sort-box-text{
@@ -115,11 +114,11 @@
 }
 
 .products-cards{
+    margin-top: 20px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
-    gap: 20px;
+    gap: 30px;
     width: 100%;
 }
 
@@ -165,7 +164,7 @@
 }
 
 .button{
-    margin-top: 2%;
+    margin-top: 4%;
     color: black;
     font-size: small;
     font-weight: bolder;
