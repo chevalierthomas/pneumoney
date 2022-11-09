@@ -101,3 +101,20 @@ span{
     color: white;
     align-items:center;
 }
+
+@media screen and (max-width:780px){
+    .container{
+        margin-top: 15vh;
+        display: flex;
+        gap: 10vh;
+        justify-content: center;
+        width: 80%;
+    }
+
+    .texte{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+    }
+}
