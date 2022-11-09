@@ -1,12 +1,12 @@
+*{
+    color: black;
+}
+
 .texte{
     width: 40%;
 }
 
-.image{
-    width: 35%;
-    height: 35%;
-    
-}
+
 
 .container{
     margin-top: 15vh;
