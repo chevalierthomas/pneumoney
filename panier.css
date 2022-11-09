@@ -1,3 +1,199 @@
 h1 {
-  color: blue; 
+  color: black; 
+  text-align: left;
+}
+
+.titre {
+  text-align: left;
+  
+}
+
+.container{
+  margin-top: 15vh;
+  margin-left: 100px;
+  display: flex;
+  gap: 3vh;
+  justify-content: space-around;
+  flex-flow: column wrap;
+  width: 50%;
+}
+.header{
+  display: flex;
+  gap: 2vh;
+  justify-content: center;
+  flex-flow: column wrap;
+  width: 50%;
+  color: black;
+}
+
+* {
+  margin:0;
+  padding:0;
+  text-decoration: none;
+  list-style: none;
+  color: black;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&display=swap');
+
+
+
+.navbar{
+  display: flex;
+  justify-content: center;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  width: 100%;
+  box-sizing: border-box;
+  background-color: grey;
+  height: 10vh;
+  position: fixed;
+  top: 0; 
+  left: 0; 
+  z-index: 9999
+}
+
+.nav-content{
+  display: flex;
+  width: 80%;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.formulaire input{
+  align-items: center;
+  width: 400px;
+  height: 30px;
+  color: #1a1a1a;
+}
+
+.panier{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 15%;
+}
+
+.panier ul li{
+  display: flex;
+  margin: 0;
+  align-items: center;
+}
+
+.navbar ul {
+  display: flex;
+}
+
+.navbar .nav-items ul li {
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.active {
+  font-weight: bold ;
+}
+
+.pneu{
+  display: flex;
+  margin-top: 20px;
+  gap: 3vh;
+}
+
+.image{
+  display: flex;
+  height: 200px;
+  width: 200px;
+  box-shadow: black;
+  }
+.column{
+  display: flex;
+  flex-flow: column;
+  text-align: end;
+  justify-content: flex-end;
+  justify-content: space-around;
+}
+.remove{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  text-decoration: underline;
+  
+}
+.information{
+  display: flex;
+  margin-top: 100px;
+  /*margin-left: 100px;*/
+  flex-flow: column;
+}
+.grey{
+  color:grey;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.moins{
+  display: flex;
+  margin-bottom: 20px;
+}
+.space{
+  display: flex;
+  margin-top: 100px;
+}
+.grosse{
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}
+input{
+  width: 400px;
+  height: 25px;
+}
+.space{
+  display: flex;
+  justify-content: space-between;
+}
+.containerDroite{
+  margin: 5vh;
+  margin-top: 15vh;
+  display: flex;
+  gap: 10px;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 50%;
+}
+.containerPanier1{
+  display: flex;
+  width: 100%;
+}
+.containerPanier{
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
+  
+}
+.containerPanierDroite{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  width: 300px;
+  height: 100px;
+}
+.sousPanier{
+  display: flex;
+  flex-wrap: wrap;
+}
+@media screen and (max-width:900px){
+  .grosse{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+  }
 }

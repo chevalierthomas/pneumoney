@@ -1,11 +1,171 @@
 <!DOCTYPE html>
 <html lang="fr">
   <head>
-    <link rel="panier" href="panier.css">
+    <link rel="stylesheet" href="panier.css">
+    <link rel="stylesheet" href="style.css">
     <meta charset="utf-8">
-    <title> panier</title>
+    <title> Panier </title>
   </head>
   <body>
+    <section class="navbar">
+      <div class="nav-content">
+          <a class="active" href="#">PneuMoney</a>
+              <div class="nav-items">
+                  <div class="nav-links">
+                      <ul>
+                          <li><a class="links " href="shop.html">Les produits</a></li>
+                          <li><a class="links " href="#">Le produit</a></li>
+                          <li class="rechercher"> <img class="loupe-logo" style="margin-right: 10px;" src="img/loupe.png" width="30px" alt="">
+                              <form  action="" class="formulaire ">
+                              <input class="champ " type="text" placeholder="Rechercher">
+                              </form>
+                          </li>
+                      </ul>
+                  </div>
+                  
+                  <div class="panier">
+                      <ul>
+                          <li><a href="#"><img class="panier-logo" src="img/panier.png" alt="" width="70px"></a> </li>
+                          <li><a class="links "  href="#">Login</a></li>
+                      </ul>
+                  </div>
+              </div>
 
+          
+          
+      </div>
+      <img class="hamburger-icon" src="img/hamburger.png" width="40" alt="menu hamburger">
+      
+  </section>
+<div> 
+
+  <div class="grosse">
+  <div class="container">
+    <div><h1>Your cart</h1><br><div class="texte">ready to checkout ? Continue Shopping</div></div>
+  
+  <div class="pneu">
+    <div class="image"> <img src="pneuShop.jpeg" alt="" width="200px"></div>
+    <div class="column"><h2 class="texte">THE PNEU</h2><div>Size : 250</div><div>Quantity : 1 </div><div><strong>150 €</strong></div></div>
+    <div class="remove"><a href="" class="remove">remove</a></div>
+  </div>
+
+  
+<hr>
+<div class="pneu">
+  <div> <img  class="image" src="pneuShop.jpeg" alt="" width="200px"></div>
+  <div class="column"><h2 class="texte">THE PNEU</h2><div>Size : 250</div><div>Quantity : 1 </div><div><strong>150 €</strong></div></div>
+  <div class="remove"><a href="" class="remove">remove</a></div>
+</div>
+
+<div class="information">
+
+  <div><h3>Order information</h3></div>
+  <hr>
+  <div class="grey">return policy</div>
+  <div class="grey">this is our exemple return policy wich is everything you need to know about your  return</div>
+  <hr>
+  <div><h3 class="grey">Shipping options</h3></div>
+  <hr>
+  <div><h3 class="grey">Shipping options</h3></div>
+  <hr>
+  <div class="space"></div>
+  
+ 
+
+</div>
+
+  </div> <!--finpneu--> 
+
+
+
+<div class="containerDroite">
+  
+    <div class="texte"><h3>Order Summary</h3></div>
+    <div><input type="text" name="" id="" placeholder="enter coupon code here"></div>
+  <div class="containerPanier1">
+  <div class="containerPanier">
+    
+      <div>Subtotal </div>
+      <div>Shipping</div>
+      <hr align="right">
+      <div>total</div>
+    
+  </div>  <!--debut panier droite-->
+  <div class="containerPanierDroite">
+    <div>150 €</div>
+    <div class="sousPanier"> calculed at the next step</div>
+    <hr>
+    <div>150 €</div>
+  </div><!--fin panier droite-->
+</div>
+</div>
+
+
+</div>
+
+
+</div> <!--fin grosse-->
+
+<footer class="footer">
+  <div class="foot-content">
+          <div class="foot-items">
+              <div class="top-item">NOS PRODUITS</div>
+              <div class="items">
+                  <a href="#">Pneu pas cher</a>  
+              </div>
+              <div class="items">
+                  <a href="#">Nos marques</a>  
+              </div>
+              <div class="items">
+                  <a href="#">Pneu Michelin</a>  
+              </div>
+              <div class="items">
+                  <a href="#">Pneu toutes marques</a>  
+              </div>
+          </div>
+          <div class="foot-items">
+              <div class="top-item">AIDE</div>
+              <div class="items">
+                  <a href="#">Statut de commande</a> 
+              </div>
+              <div class="items">
+                  <a href="">Expédition et livraison</a>
+              </div>
+              <div class="items">
+                  <a href="#">Retours</a>  
+              </div>
+              <div class="items">
+                  <a href="#">Mode de paiement</a>  
+              </div>
+              <div class="items">
+                  <a href="#">Nous contacter</a>  
+              </div>
+          </div>
+          <div class="foot-items">
+              <div class="top-item">À PROPOS DE PNEUMONEY
+              </div>
+              <div class="items"s>
+                  <a href="#">Actualités</a> 
+              </div>
+              <div class="items">
+                  <a href="#">Recrutement</a>  
+              </div>
+              <div class="items">
+                  <a href="#">Investissseurs</a>  
+              </div>
+              <div class="items">
+                  <a href="#">Développement durable</a>  
+              </div>
+          </div>
+  </div>
+</footer>
   </body>
+  <script>
+    const menuHamburger = document.querySelector(".hamburger-icon")
+const navItems = document.querySelector(".nav-items")
+
+menuHamburger.addEventListener('click',()=>{
+navItems.classList.toggle('mobile-menu')
+})
+</script>
 </html>
