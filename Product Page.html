@@ -8,6 +8,35 @@
   </head>
   <body>
 
+    <section class="navbar">
+      <div class="nav-content">
+          <a class="active" href="#">PneuMoney</a>
+              <div class="nav-items">
+                  <div class="nav-links">
+                      <ul>
+                          <li><a class="links " href="shop.html">Les produits</a></li>
+                          <li><a class="links " href="Product Page.html">Le produit</a></li>
+                          <li class="rechercher"> <img class="loupe-logo" style="margin-right: 10px;" src="img/loupe.png" width="30px" alt="">
+                              <form  action="" class="formulaire ">
+                              <input class="champ " type="text" placeholder="Rechercher">
+                              </form>
+                          </li>
+                      </ul>
+                  </div>
+                  
+                  <div class="panier">
+                      <ul>
+                          <li><a href="#"><img class="panier-logo" src="img/panier.png" alt="" width="70px"></a> </li>
+                          <li><a class="links "  href="#">Login</a></li>
+                      </ul>
+                  </div>
+              </div>
+          
+      </div>
+      <img class="hamburger-icon" src="img/hamburger.png" width="40" alt="menu hamburger">
+  </section>
+
+
     <div class="container">
       <div class="image">
         <img src="img/pneu_card_1.png" alt="Image pneu" width="500" >
@@ -43,5 +72,66 @@
       </div>
     </div>
     
-  </body>
+    <footer class="footer">
+      <div class="foot-content">
+              <div class="foot-items">
+                  <div class="top-item">NOS PRODUITS</div>
+                  <div class="items">
+                      <a href="#">Pneu pas cher</a>  
+                  </div>
+                  <div class="items">
+                      <a href="#">Nos marques</a>  
+                  </div>
+                  <div class="items">
+                      <a href="#">Pneu Michelin</a>  
+                  </div>
+                  <div class="items">
+                      <a href="#">Pneu toutes marques</a>  
+                  </div>
+              </div>
+              <div class="foot-items">
+                  <div class="top-item">AIDE</div>
+                  <div class="items">
+                      <a href="#">Statut de commande</a> 
+                  </div>
+                  <div class="items">
+                      <a href="">Expédition et livraison</a>
+                  </div>
+                  <div class="items">
+                      <a href="#">Retours</a>  
+                  </div>
+                  <div class="items">
+                      <a href="#">Mode de paiement</a>  
+                  </div>
+                  <div class="items">
+                      <a href="#">Nous contacter</a>  
+                  </div>
+              </div>
+              <div class="foot-items">
+                  <div class="top-item">À PROPOS DE PNEUMONEY
+                  </div>
+                  <div class="items"s>
+                      <a href="#">Actualités</a> 
+                  </div>
+                  <div class="items">
+                      <a href="#">Recrutement</a>  
+                  </div>
+                  <div class="items">
+                      <a href="#">Investissseurs</a>  
+                  </div>
+                  <div class="items">
+                      <a href="#">Développement durable</a>  
+                  </div>
+              </div>
+      </div>
+  </footer>
+</body>
+  <script>
+              const menuHamburger = document.querySelector(".hamburger-icon")
+      const navItems = document.querySelector(".nav-items")
+
+      menuHamburger.addEventListener('click',()=>{
+      navItems.classList.toggle('mobile-menu')
+      })
+  </script>
 </html>
