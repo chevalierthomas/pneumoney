@@ -1,3 +1,22 @@
+/*
+body {
+    display: flex;
+    align-items: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: 'Open Sans', sans-serif;    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+    color: #f4f4f4;
+    font-size: 20px;
+    background-color: #f4f4f4;
+*/
+
+
+
+
+
 .container{
     margin-top: 15vh;
     display: flex;

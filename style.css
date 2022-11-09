@@ -3,12 +3,12 @@
     padding:0;
     text-decoration: none;
     list-style: none;
-    color: #f4f4f4
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&display=swap');
 
-body { 
+/*
+body {
     display: flex;
     align-items: column;
     flex-wrap: wrap;
@@ -20,6 +20,13 @@ body {
     color: #f4f4f4;
     font-size: 20px;
     background-color: #f4f4f4;
+}*/
+body{
+  font-family: 'Open Sans', sans-serif;    margin:0;
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+
 }
 
 .navbar{
@@ -30,9 +37,10 @@ body {
     background-color: #1a1a1a;
     height: 7vh;
     position: fixed;
-    top: 0; 
-    left: 0; 
+    top: 0;
+    left: 0;
     z-index: 9999
+
 }
 
 .nav-content{
@@ -79,6 +87,7 @@ body {
 }
 
 .active {
+  color: #f4f4f4;
     font-weight: bold ;
 }
 
@@ -86,7 +95,7 @@ body {
     display:block;
     content: '';
     border-bottom: solid 1.5px #f4f4f4;
-    transform: scaleX(0);  
+    transform: scaleX(0);
     transition: transform 300ms ease-in-out;
   }
 
@@ -94,6 +103,10 @@ body {
       transform: scaleX(1);
 }
 
+.links{
+  color: #f4f4f4
+
+}
 .footer{
     margin-top: 30px;
     height: auto;
@@ -115,7 +128,7 @@ body {
 
 .foot-items{
     display: flex;
-    flex-direction: column; 
+    flex-direction: column;
 }
 
 .top-item{
@@ -149,7 +162,7 @@ body {
 
 
 @media (max-width: 1200px) {
-    
+
     .hamburger-icon{
     display: block;
     }
@@ -167,7 +180,7 @@ body {
     .nav-links {
     display: flex;
     justify-content: center;
-    width: 100%; 
+    width: 100%;
     }
 
     .nav-items{
