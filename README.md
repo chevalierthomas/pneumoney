@@ -14,8 +14,8 @@ Pneumoney est un entreprise qui vend des pneus.
 
 | Membre             | tâche effectuées |
 |--------------------|-----------------------|
-| Thomas | [index.html](index.html) + shop-style.css |
-| Clément | shop.html + shop.css |
-| Stévann| panier.html + panier.css|
-| Romain | product.html + product.css |
-| Alexis | style.css + footer + navbar |
+| Thomas | [index.html](index.html) + [shop-style.css](shop-style.css) |
+| Clément | [shop.html](shop.html) + [shop.css](shop.css) |
+| Stévann| [panier.html](panier.html) + [panier.css](panier.css)|
+| Romain | [product.html](product.html) + [product.css](product.css) |
+| Alexis | [style.css](style.css) + footer + navbar |
