@@ -1,0 +1,225 @@
+* {
+    margin:0;
+    padding:0;
+    text-decoration: none;
+    list-style: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Public+Sans:wght@600&display=swap');
+
+body{
+  font-family: 'Public Sans', sans-serif;    margin:0;
+  text-decoration: none;
+  list-style: none;
+  font-size: 20px;
+
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    background-color: #1a1a1a;
+    height: 7vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 9999
+
+}
+
+.nav-content{
+    display: flex;
+    width: 80%;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-items{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.formulaire input{
+    align-items: center;
+    width: 300px;
+    height: 25px;
+    color: #1a1a1a;
+}
+
+.panier{
+    display: flex;
+    align-items: center;
+}
+
+.panier ul li{
+    display: flex;
+    padding: 5px;
+    align-items: center;
+}
+
+
+.navbar ul {
+    display: flex;
+}
+
+.nav-links ul li {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.active {
+  color: #f4f4f4;
+    font-weight: bold ;
+}
+
+.links:after {
+    display:block;
+    content: '';
+    border-bottom: solid 1.5px #f4f4f4;
+    transform: scaleX(0);
+    transition: transform 300ms ease-in-out;
+  }
+
+  .links:hover:after{
+      transform: scaleX(1);
+}
+
+.links{
+  color: #f4f4f4
+
+}
+.footer{
+    margin-top: 30px;
+    height: auto;
+    background-color: #1a1a1a;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+}
+
+.foot-content{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.foot-items{
+    display: flex;
+    flex-direction: column;
+}
+
+.top-item{
+    font-weight: bold;
+    margin-bottom: 25px;
+    color: #f4f4f4;
+}
+
+.items{
+    margin-bottom: 13px;
+}
+
+.items a{
+    color: #b9b9b9;
+}
+
+.items a:hover{
+    color: #f4f4f4;
+}
+
+.hamburger-icon{
+    filter: invert(100%);
+    margin-right: 25PX;
+    display: none;
+}
+
+.mobile-menu{
+    margin-left: 0;
+}
+
+
+
+
+@media (max-width: 1200px) {
+
+    .hamburger-icon{
+    display: block;
+    }
+
+    .panier {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    }
+
+    .panier ul li{
+    padding: 15px;
+    }
+
+    .nav-links {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    }
+
+    .nav-content{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-items{
+    top: 0;
+    left: 0;
+    position: absolute;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.555);
+    backdrop-filter: blur(5px);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    margin-left: 100%;
+    transition: all 0.4s ease;
+    }
+
+    .nav-items ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    }
+
+    .nav-items ul li{
+    margin: 15px 0;
+    font-size: 24px;
+    }
+
+    .panier-logo{
+    width: 100px;
+    }
+
+    .loupe-logo{
+    width: 40px;
+    }
+
+    .formulaire input{
+    height: 30px;
+    }
+
+    .nav-items.mobile-menu {
+    margin-left: 0;
+    }
+
+
+    .foot-content{
+        width: 90%;
+    }
+
+}
