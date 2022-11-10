@@ -214,13 +214,17 @@ input{
 }
 
 @media screen and (max-width:780px){
+  .grosse{
+    align-items: flex-start;
+  }
   .container{
     margin-top: 15vh;
     display: flex;
     gap: 3vh;
     justify-content: space-around;
     flex-flow: column wrap;
-    width: 80%;
+    width: 100%;
+    margin-left: 5px;
   }
   .containerDroite{
     margin-top: 15vh;
@@ -230,6 +234,14 @@ input{
     flex-wrap: wrap;
     flex-direction: column;
     width: 100%;
-    margin-left: 150px;
+    margin-left: 5px;
+  }
+  .information{
+    display: flex;
+    margin-top: 100px;
+    margin-left: 5px;
+    width: 80%;
+    flex-flow: column;
+
   }
 }
