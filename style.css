@@ -216,4 +216,10 @@ body{
     .nav-items.mobile-menu {
     margin-left: 0;
     }
+
+
+    .foot-content{
+        width: 90%;
+    }
+
 }
