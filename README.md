@@ -1,5 +1,6 @@
 Pneumoney est un entreprise qui vend des pneus.
 
+# Groupe
 
 | Membre             | Adresse universitaire |
 |--------------------|-----------------------|
@@ -9,7 +10,7 @@ Pneumoney est un entreprise qui vend des pneus.
 | Romain MEYER | <romain.meyer04@edu.univ-fcomte.fr> |
 | Alexis MARICHY | <alexis.marichy@edu.univ-fcomte.fr> |
 
-# Répartition des tâches :
+# Répartition des tâches 
 
 | Membre             | tâche effectuées |
 |--------------------|-----------------------|
