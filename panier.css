@@ -172,6 +172,7 @@ input{
   flex-wrap: wrap;
   flex-direction: column;
   width: 100%;
+  margin-left: 50px;
 }
 .containerPanier{
   display: flex;
@@ -179,6 +180,7 @@ input{
   flex-direction: column;
   justify-content: space-between;
   height: 100PX;
+  
   
 }
 .containerPanierDroite{
