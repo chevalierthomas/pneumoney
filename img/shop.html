@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="shop.css">
+</head>
+<body>
+    <section class="navbar">
+        <div class="nav-content">
+            <a class="active" href="index.html">PneuMoney</a>
+            <div class="nav-items">
+                <div class="nav-links">
+                    <ul>
+                        <li><a class="links " href="shop.html">Les produits</a></li>
+                        <li><a class="links " href="#">Le produit</a></li>
+                        <li class="rechercher"> <img class="loupe-logo" style="margin-right: 10px;" src="img/loupe.png"
+                                width="30px" alt="">
+                            <form action="" class="formulaire ">
+                                <input class="champ " type="text" placeholder="Rechercher">
+                            </form>
+                        </li>
+                    </ul>
+                </div>
+                <div class="panier">
+                    <ul>
+                        <li><a href="#"><img class="panier-logo" src="img/panier.png" alt="" width="70px"></a> </li>
+                        <li><a class="links " href="#">Login</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <img class="hamburger-icon" src="img/hamburger.png" width="40" alt="menu hamburger">
+    </section>
+    <div class="container">
+        <div class="barre-shop">
+            <div class="barre-shop-title">
+                Boutique
+            </div>
+            <div class="barre-shop-text">
+                Sur cette page vous retrouverez différents types de pneus d'une qualité exeptionnelle, 
+                vendus par nos partenaires de longue date (Michelin, Bridgestone, Continental et Goodyear),
+                plus qu'à trouver le votre !
+            </div>
+        </div>
+        <div class="gauche">
+            <div class="filtres-header">
+                <div class="filtres-header-title">
+                    Filtres
+                </div>
+                <div class="filtres-clear">
+                    <a class="filtres-clear" href="" target="_self">
+                        Effacer filtres
+                    </a>
+                </div>
+            </div>
+            <div class="filtres">
+                <div class="filtres-title">
+                    Catégories
+                </div>
+                <div class="filtres-content">
+                    <div class="filtres-box">
+                        <input class="checkbox" type="checkbox" name="pneu-ete" value="pneu-ete">
+                        Pneus d'été
+                        <br>
+                    </div>
+                    <div class="filtres-box">
+                        <input type="checkbox" name="pneu-hiver" value="pneu-hiver">
+                        Pneus d'hiver
+                        <br>
+                    </div>
+                    <div class="filtres-box">
+                        <input type="checkbox" name="pneu-saison" value="pneu-saison">
+                        Pneus toutes saisons
+                        <br>
+                    </div>
+                    <div class="filtres-box">
+                        <input type="checkbox" name="pneu-large" value="pneu-large">
+                        Pneus larges
+                        <br>
+                    </div>
+                    <div class="filtres-box">
+                        <input type="checkbox" name="pneu-xl" value="pneu-xl">
+                        Pneus XL
+                        <br>
+                    </div>
+                </div>
+            </div>
+            <div class="filtres">
+                <div class="filtres-title">
+                    Taille
+                </div>
+                <div class="filtres-content">
+                    <div class="filtres-box">
+                        <input type="checkbox" name="r15" value="r15">
+                        R15
+                        <br>
+                    </div>
+                    <div class="filtres-box">
+                        <input type="checkbox" name="r16" value="r16">
+                        R16
+                        <br>
+                    </div>
+                    <div class="filtres-box">
+                        <input type="checkbox" name="r17" value="r17">
+                        R17
+                        <br>
+                    </div>
+                    <div class="filtres-box">
+                        <input type="checkbox" name="r18" value="r18">
+                        R18
+                        <br>
+                    </div>
+                    <div class="filtres-box">
+                        <input type="checkbox" name="r19" value="r19">
+                        R19
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="droite">
+            <div class="sort">
+                <div class="sort-box">
+                    <div class="sort-box-text">
+                        Trier par
+                    </div>
+                    <div class="sort-box-list">
+                        <form>
+                            <select class="select" name="select" size="1">
+                                <option class="select">
+                                    Populaires
+                                </option>
+                                <option class="select">
+                                    Prix
+                                </option>
+                            </select>
+                        </form>
+                    </div>
+                </div>
+                <div class="sort-text">
+                    Showing 13 products
+                </div>
+            </div>
+            <div class="products-cards">
+                <div class="card">
+                    <div class="card-image">
+                        <img class="img-card" src="/img/pneus/alpin6.png" alt="image pneu">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-content">
+                            <div class="card-body-title">
+                                Michelin Alpin 6
+                            </div>
+                            <div class="card-body-option">
+                                225/55 R16
+                            </div>
+                        </div>
+                        <div class="card-body-price">
+                            99.99$
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img class="img-card" src="/img/pneus/primacy4.png" alt="image pneu">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-content">
+                            <div class="card-body-title">
+                                Primacy 4
+                            </div>
+                            <div class="card-body-option">
+                                185/65 R15
+                            </div>
+                        </div>
+                        <div class="card-body-price">
+                            73.90$
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <a href="index.html">
+                        <div class="card-image">
+                            <img class="img-card" src="/img/pneus/MichelinPilotSportCup2.png" alt="image pneu">
+                        </div>
+                        <div class="card-body">
+                            <div class="card-content">
+                                <div class="card-body-title">
+                                    Pilot Sport 2
+                                </div>
+                                <div class="card-body-option">
+                                    195/50 R15
+                                </div>
+                            </div>
+                            <div class="card-body-price">
+                                132.90€
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img class="img-card" src="/img/pneus/TuranzaER300.png" alt="image pneu">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-content">
+                            <div class="card-body-title">
+                                Turanza ER300
+                            </div>
+                            <div class="card-body-option">
+                                225/55 R16
+                            </div>
+                        </div>
+                        <div class="card-body-price">
+                            134.54€
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img class="img-card" src="/img/pneus/BlizzakLM005.png" alt="image pneu">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-content">
+                            <div class="card-body-title">
+                                Blizzak LM005
+                            </div>
+                            <div class="card-body-option">
+                                205/55 R16
+                            </div>
+                        </div>
+                        <div class="card-body-price">
+                            95.38€
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-image">
+                        <img class="img-card" src="/img/pneus/EcoContact6.png" alt="image pneu">
+                    </div>
+                    <div class="card-body">
+                        <div class="card-content">
+                            <div class="card-body-title">
+                                EcoContact 6
+                            </div>
+                            <div class="card-body-option">
+                                205/55 R16
+                            </div>
+                        </div>
+                        <div class="card-body-price">
+                            84.50€
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="load-more-button">
+                <button class="button" type="button">
+                    Load more products
+                </button>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="foot-content">
+            <div class="foot-items">
+                <div class="top-item">NOS PRODUITS</div>
+                <div class="items">
+                    <a href="#">Pneu pas cher</a>
+                </div>
+                <div class="items">
+                    <a href="#">Nos marques</a>
+                </div>
+                <div class="items">
+                    <a href="#">Pneu Michelin</a>
+                </div>
+                <div class="items">
+                    <a href="#">Pneu toutes marques</a>
+                </div>
+            </div>
+            <div class="foot-items">
+                <div class="top-item">AIDE</div>
+                <div class="items">
+                    <a href="#">Statut de commande</a>
+                </div>
+                <div class="items">
+                    <a href="">Expédition et livraison</a>
+                </div>
+                <div class="items">
+                    <a href="#">Retours</a>
+                </div>
+                <div class="items">
+                    <a href="#">Mode de paiement</a>
+                </div>
+                <div class="items">
+                    <a href="#">Nous contacter</a>
+                </div>
+            </div>
+            <div class="foot-items">
+                <div class="top-item">À PROPOS DE PNEUMONEY
+                </div>
+                <div class="items" s>
+                    <a href="#">Actualités</a>
+                </div>
+                <div class="items">
+                    <a href="#">Recrutement</a>
+                </div>
+                <div class="items">
+                    <a href="#">Investissseurs</a>
+                </div>
+                <div class="items">
+                    <a href="#">Développement durable</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+<script>
+    const menuHamburger = document.querySelector(".hamburger-icon")
+    const navItems = document.querySelector(".nav-items")
+    menuHamburger.addEventListener('click', () => {
+        navItems.classList.toggle('mobile-menu')
+    })
+</script>
+</html>

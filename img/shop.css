@@ -1,0 +1,190 @@
+.container{
+    margin-top: 68px;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.gauche{
+    margin-left: 7%;
+    flex-direction: column wrap;
+    width: 25%;
+}
+
+.droite{
+    margin-top: 3%;
+    width: 63%;
+}
+
+.barre-shop{
+    background-color: #1a1a1a;
+    width: 100%;
+}
+
+.barre-shop-title{
+    margin-top: 50px;
+    margin-left: 8%;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.barre-shop-text{
+    margin-top: 16px;
+    margin-left: 8%;
+    margin-bottom: 50px;
+    width: 40%;
+    font-size: 20px;
+    line-height: 1.5em;
+    text-align: justify;
+    color: white;
+}
+
+.filtres{
+    margin-top: 30px;
+}
+
+
+.filtres-header{
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    align-items: baseline;
+}
+
+.filtres-header-title{
+    color: black;
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.filtres-clear{
+    color: lightgray;
+    font-size: 20px;
+    text-decoration: underline;
+    margin-left: 20px;
+}
+
+.filtres-clear:hover{
+    color: rgb(186, 186, 186);
+}
+
+.filtres-title{
+    color: black;
+    font-size: 16px;
+    font-weight: 800;
+}
+
+.filtres-content{
+    margin-top: 14px;
+}
+
+.checkbox{
+    color: aqua;
+}
+
+.filtres-box{
+    margin-top: 12px;
+    color: black;
+    font-size: 16px;
+}
+
+.sort{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.sort-box{
+    white-space: nowrap;
+    padding: 8px 10px;
+    display: flex;
+    border: solid medium black;
+}
+
+.sort-box-text{
+    flex-wrap: nowrap;
+    color: rgb(163, 160, 160);
+}
+
+.sort-box-list{
+    margin-left: 6%;
+}
+
+.select{
+    color: black;
+    font-size: smaller;
+    margin-right: 5px;
+}
+
+.sort-text{
+    margin-top: 10px;
+    color: black;
+    font-size: smaller;
+}
+
+.products-cards{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 30px;
+    width: 100%;
+}
+
+.card{
+    width: fit-content;
+    margin-top: 10px;
+}
+
+.img-card{
+    width: 250px;
+}
+
+.card-body{
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: column;
+}
+
+.card-content{
+    margin-top: 5px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.card-body-title{
+    color: black;
+    font-weight: 700;
+    font-size: medium;
+}
+
+.card-body-price{
+    margin-top: 5px;
+    color: black;
+    font-size: smaller;
+}
+
+.card-body-option{
+    color: black;
+    font-size: medium;
+}
+
+.load-more-button{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.button{
+    margin-top: 4%;
+    color: black;
+    font-size: small;
+    font-weight: bolder;
+    padding: 10px 70px;
+    border: 2px solid black;
+}
+
+.button:hover{
+    color:white;
+    background-color:#1a1a1a;
+}
