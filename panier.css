@@ -208,7 +208,7 @@ input{
   display: flex;
   flex-direction: column;
 }
-@media screen and (max-width:900px){
+@media screen and (max-width:950px){
   .grosse{
     display: flex;
     justify-content: space-around;
