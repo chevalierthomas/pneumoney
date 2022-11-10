@@ -6,7 +6,17 @@
     width: 40%;
 }
 
+.gap1{
+    margin-bottom: 5px;
+}
 
+.gap2{
+    margin-bottom: 20px;
+}
+
+h4{
+    font-size: 18px;
+}
 
 .container{
     margin-top: 15vh;
