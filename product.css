@@ -111,6 +111,14 @@ span{
     align-items:center;
 }
 
+.orderButton1{
+    order: 1;
+}
+
+.orderButton2{
+    order: 2;
+}
+
 @media screen and (max-width:780px){
     .container{
         position: relative;
@@ -135,8 +143,15 @@ span{
 
     .bouton{
         position: relative;
-        left: 25%;
+        left: 20%;
     }
     
+    .orderButton1{
+        order: 2;
+    }
+    
+    .orderButton2{
+        order: 1;
+    }
 
 }
