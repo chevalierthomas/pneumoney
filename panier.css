@@ -10,12 +10,13 @@ h1 {
 
 .container{
   margin-top: 15vh;
-  margin-left: 100px;
+  margin-left: 50px;
   display: flex;
   gap: 3vh;
-  justify-content: space-around;
+  justify-content: flex-start;
   flex-flow: column wrap;
-  width: 50%;
+  width: 40%;
+
 }
 .header{
   display: flex;
@@ -28,74 +29,12 @@ h1 {
 
 * {
   margin:0;
-  padding:0;
   text-decoration: none;
   list-style: none;
   color: black;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500;700&display=swap');
-
-
-/*
-.navbar{
-  display: flex;
-  justify-content: center;
-  padding-top: 2px;
-  padding-bottom: 2px;
-  width: 100%;
-  box-sizing: border-box;
-  background-color: grey;
-  height: 10vh;
-  position: fixed;
-  top: 0; 
-  left: 0; 
-  z-index: 9999
-}
-
-.nav-content{
-  display: flex;
-  width: 80%;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-
-}
-
-.formulaire input{
-  align-items: center;
-  width: 400px;
-  height: 30px;
-  color: #1a1a1a;
-}
-
-.panier{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 15%;
-}
-
-.panier ul li{
-  display: flex;
-  margin: 0;
-  align-items: center;
-}
-
-.navbar ul {
-  display: flex;
-}
-
-.navbar .nav-items ul li {
-  display: flex;
-  align-items: center;
-  padding: 20px;
-}
-
-.active {
-  font-weight: bold ;
-}
-*/
 
 
 .pneu{
@@ -127,7 +66,7 @@ h1 {
 .information{
   display: flex;
   margin-top: 100px;
-  /*margin-left: 100px;*/
+  margin-left: 100px;
   flex-flow: column;
 }
 .grey{
@@ -145,8 +84,9 @@ h1 {
 }
 .grosse{
   display: flex;
-  justify-content: space-around;
+  /*justify-content: space-around;*/
   align-items: flex-start;
+  flex-wrap: wrap;
 }
 input{
   width: 400px;
@@ -208,17 +148,16 @@ input{
   display: flex;
   flex-direction: column;
 }
-@media screen and (max-width:950px){
+@media screen and (max-width:970px){
   .grosse{
     display: flex;
     justify-content: space-around;
-    align-items: flex-start;
+    align-items: center;
     flex-direction: column;
   }
 
 .container{
   margin-top: 15vh;
-  margin-left: 68px;
   display: flex;
   gap: 3vh;
   justify-content: space-around;
@@ -226,18 +165,17 @@ input{
   width: 80%;
 }
 .containerDroite{
-  margin: 5vh;
   margin-top: 15vh;
   display: flex;
   gap: 10px;
   justify-content: space-around;
   flex-wrap: wrap;
   flex-direction: column;
-  width: 80%;
+  width: 100%;
 }
 .containerPanier{
   display: flex;
-  width: 250px;
+  width: 40%;
   flex-direction: column;
   justify-content: space-between;
   height: 100PX;
@@ -249,8 +187,25 @@ input{
   flex-direction: column;
   align-items: flex-end;
   justify-content: space-between;
-  width: 250px;
+  width: 40%;
   height: 100PX;
 }
-
+.information{
+  display: flex;
+  margin-top: 100px;
+  flex-flow: column;
+}
+.boutonPanier{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  color: white;
+  height: 30px;
+  width: 80%;
+  
+}
+.size{
+  width: 80%;
+}
 }
