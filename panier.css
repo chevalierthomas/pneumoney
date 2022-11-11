@@ -230,7 +230,7 @@ input{
     justify-content: space-around;
     flex-flow: column wrap;
     width: 90%;
-    margin-left: 10px;
+    margin-left: 20px;
   }
   .containerDroite{
     margin-top: 15vh;
@@ -240,7 +240,7 @@ input{
     flex-wrap: wrap;
     flex-direction: column;
     width: 100%;
-    margin-left: 50px;
+    margin-left: 10%;
   }
   .information{
     display: flex;
