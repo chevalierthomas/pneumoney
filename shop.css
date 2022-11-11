@@ -266,15 +266,8 @@ body{
     }
 }
 
-@media (max-width: 844px) {
 
-    .products-cards{
-        justify-content: center;
-    }
-}
-
-
-@media screen and (max-width:425px){
+@media screen and (max-width:780px){
 
     .barre-shop{
         display: flex;
