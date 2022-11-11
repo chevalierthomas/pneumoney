@@ -178,7 +178,7 @@ input{
   justify-content: space-around;
   flex-wrap: wrap;
   flex-direction: column;
-  width: 100%;
+  width: 80%;
   margin-left: 50px;
 }
 .containerPanier{
@@ -230,7 +230,7 @@ input{
     justify-content: space-around;
     flex-flow: column wrap;
     width: 90%;
-    margin-left: 5px;
+    margin-left: 50px;
   }
   .containerDroite{
     margin-top: 15vh;
@@ -240,12 +240,12 @@ input{
     flex-wrap: wrap;
     flex-direction: column;
     width: 100%;
-    margin-left: 5px;
+    margin-left: 50px;
   }
   .information{
     display: flex;
     margin-top: 100px;
-    margin-left: 5px;
+    margin-left: 50px;
     width: 80%;
     flex-flow: column;
 
