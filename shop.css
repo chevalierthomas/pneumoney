@@ -122,6 +122,8 @@ body{
 .select{
     color: #000000;
     margin-right: 5px;
+    font-size: 20px;
+
 }
 
 .sort-text{
@@ -136,7 +138,7 @@ body{
     flex-wrap: wrap;
     gap: 30px;
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .card{
@@ -236,6 +238,7 @@ body{
 
     .filtres-clear{
         font-size: 16px;
+        margin-left: 10px;
     }
 
     .filtres-title{
@@ -260,6 +263,13 @@ body{
 
     .button{
         font-size: 18px;
+    }
+}
+
+@media (max-width: 844px) {
+
+    .products-cards{
+        justify-content: center;
     }
 }
 
@@ -297,6 +307,7 @@ body{
         color: #979797;
         text-align: justify;
         line-height: 1.4em;
+        margin-bottom: 20px;
     }
 
     .filtres-header{
@@ -313,6 +324,10 @@ body{
 
     .sort-text{
         margin-top: 10px;
+    }
+
+    .haut{
+        flex-flow: wrap;
     }
 
     .gauche{
